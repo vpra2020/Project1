@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_to_Travel__c</fullName>
+    <description>This should be an estimate of how much it costs a standard mining ship to travel to this location from the home base of the org, for a feel of the value of making a trip here also considering its approximate yield left worth of ore.</description>
+    <externalId>false</externalId>
+    <label>Cost to Travel</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

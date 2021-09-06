@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Value</fullName>
+    <active>true</active>
+    <description>Don&apos;t let mining sets get inserted with less than 1000 dollars est. worth.</description>
+    <errorConditionFormula>EstimatedWorth__c &lt; 1000</errorConditionFormula>
+    <errorDisplayField>EstimatedWorth__c</errorDisplayField>
+    <errorMessage>New Mining Site must have a minimum estimated worth of at least $1000.</errorMessage>
+</ValidationRule>

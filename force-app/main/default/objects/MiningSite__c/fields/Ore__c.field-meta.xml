@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ore__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ore that this site has</description>
+    <externalId>false</externalId>
+    <label>Primary Ore</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>Ore</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Mining Sites</relationshipLabel>
+    <relationshipName>MiningSites</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Force_Future_Expiry</fullName>
+    <active>true</active>
+    <description>Do not let expiration date be set to the past from point of record creation.</description>
+    <errorConditionFormula>DATEVALUE(Expiration_Date__c) &lt;= TODAY()</errorConditionFormula>
+    <errorDisplayField>Expiration_Date__c</errorDisplayField>
+    <errorMessage>Expiration date must be set at some day in the future.</errorMessage>
+</ValidationRule>
