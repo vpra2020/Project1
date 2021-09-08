@@ -305,6 +305,8 @@
 		<members>Pricebook2</members>
 		<members>PricebookEntry</members>
 		<members>ProcessException</members>
+
+		<members>Product2</members>
 		
 		<members>ProductConsumptionSchedule</members>
 		<members>PromptAction</members>
