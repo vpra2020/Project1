@@ -248,6 +248,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -287,6 +291,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -462,6 +467,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -501,6 +510,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -680,6 +690,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -720,6 +734,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -895,6 +910,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -934,6 +953,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1113,6 +1133,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1153,6 +1177,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1328,6 +1353,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1367,6 +1396,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1546,6 +1576,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1586,6 +1620,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1761,6 +1796,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1800,6 +1839,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1979,6 +2019,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2019,6 +2063,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2194,6 +2239,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2233,6 +2282,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2412,6 +2462,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2452,6 +2506,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2627,6 +2682,10 @@
             <field>00N5e00000cgDLn</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2666,6 +2725,7 @@
             <field>00N5e00000cgDLl</field>
             <field>00N5e00000cgDLm</field>
             <field>00N5e00000cgDLn</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

@@ -418,6 +418,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Campaign.CampaignImageId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Campaign.Description</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1443,6 +1448,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Event.IsVisibleInSelfService</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Event.Location</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1678,6 +1688,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Lead.PartnerAccountId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Lead.Phone</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1834,6 +1849,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.OrderNumber__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.PartnerAccountId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2219,6 +2239,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.Description</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.IsVisibleInSelfService</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -1,0 +1,8 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Welcome</h1>
+  <br/>
+  Team Synergy woo!<p/>
+  <img src="https://cdn.mos.cms.futurecdn.net/mPFET8wxkZENQazxvRg7K5.jpg" alt="Space station picture" />
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

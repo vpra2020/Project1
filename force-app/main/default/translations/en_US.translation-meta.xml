@@ -48,6 +48,23 @@
         <flows>
             <screens>
                 <fields>
+                    <name>Account_Name</name>
+                </fields>
+                <fields>
+                    <name>Billing_State_i_e_CA</name>
+                </fields>
+                <fields>
+                    <name>phone</name>
+                </fields>
+                <name>Quick_Account</name>
+            </screens>
+        </flows>
+        <fullName>CREATEQUICKACCOUNT</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
                     <name>Product_Code</name>
                 </fields>
                 <fields>
@@ -127,6 +144,10 @@
         <fullName>test</fullName>
     </flowDefinitions>
     <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>
     </quickActions>
@@ -137,6 +158,10 @@
     <quickActions>
         <label><!-- NewCase --></label>
         <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
     </quickActions>
     <quickActions>
         <label><!-- NewContact --></label>

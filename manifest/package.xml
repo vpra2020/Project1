@@ -226,7 +226,7 @@
 		<members>CollaborationGroup</members>
 		<members>CollaborationGroupMember</members>
 		<members>CommSubscription</members>
-		<members>CommSubscriptionChannelType</members>
+
 		<members>CommSubscriptionConsent</members>
 		<members>CommSubscriptionTiming</members>
 		<members>ConsumptionRate</members>
@@ -284,8 +284,6 @@
 		<members>MacroInstruction</members>
 		<members>MacroUsage</members>
 		<members>ManagedContentVersion</members>
-		<members>MiningRoster__c</members>
-		<members>MiningSite__c</members>
 		<members>Opportunity</members>
 		<members>OpportunityCompetitor</members>
 		<members>OpportunityContactRole</members>
@@ -301,14 +299,13 @@
 		<members>PaymentAuthAdjustment</members>
 		<members>PaymentAuthorization</members>
 		<members>PaymentGateway</members>
-		<members>PaymentGroup</members>
+
 		<members>PaymentLineInvoice</members>
 		<members>PaymentMethod</members>
-		<members>Payout__c</members>
 		<members>Pricebook2</members>
 		<members>PricebookEntry</members>
 		<members>ProcessException</members>
-		<members>Product2</members>
+		
 		<members>ProductConsumptionSchedule</members>
 		<members>PromptAction</members>
 		<members>PromptError</members>
@@ -320,7 +317,6 @@
 		<members>Refund</members>
 		<members>RefundLinePayment</members>
 		<members>ReportAnomalyEventStore</members>
-		<members>SaleReport__c</members>
 		<members>Scorecard</members>
 		<members>ScorecardAssociation</members>
 		<members>ScorecardMetric</members>
@@ -332,17 +328,16 @@
 		<members>StreamActivityAccess</members>
 		<members>StreamingChannel</members>
 		<members>Task</members>
-		<members>TestObjectForReport__c</members>
 		<members>Topic</members>
 		<members>TopicAssignment</members>
 		<members>User</members>
 		<members>UserProvisioningRequest</members>
-		<members>User_Payrecord__c</members>
 		<members>WorkBadge</members>
 		<members>WorkBadgeDefinition</members>
 		<members>WorkOrder</members>
 		<members>WorkOrderLineItem</members>
 		<members>WorkThanks</members>
+		<members>*</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -353,10 +348,7 @@
 		<members>*</members>
 		<name>CustomPageWebLink</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>CustomPermission</name>
-	</types>
+
 	<types>
 		<members>*</members>
 		<name>CustomSite</name>
@@ -404,10 +396,7 @@
 		<members>unfiled$public/SupportSelfServiceResetPassword</members>
 		<name>EmailTemplate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>EntitlementProcess</name>
-	</types>
+
 	<types>
 		<members>*</members>
 		<name>EntitlementTemplate</name>
@@ -472,14 +461,8 @@
 		<members>IframeWhiteListUrlSettings</members>
 		<name>IframeWhiteListUrlSettings</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>InstalledPackage</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Layout</name>
-	</types>
+
+
 	<types>
 		<members>*</members>
 		<name>LightningBolt</name>
@@ -525,10 +508,7 @@
 		<members>Case.MyCases</members>
 		<members>Case.MyOpenCases</members>
 		<members>CollaborationGroup.All_ChatterGroups</members>
-		<members>CommSubscription.All_CommSubscriptions</members>
-		<members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
-		<members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
-		<members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
+
 		<members>ConsumptionSchedule.All_ConsumptionSchedules</members>
 		<members>ConsumptionSchedule.My_ConsumptionSchedules</members>
 		<members>Contact.AllContacts</members>
@@ -590,7 +570,7 @@
 		<members>PaymentAuthAdjustment.PaymentAuthAdjustment</members>
 		<members>PaymentAuthorization.PaymentAuthorization</members>
 		<members>PaymentGateway.PaymentGateway</members>
-		<members>PaymentGroup.PaymentGroup</members>
+		
 		<members>PaymentLineInvoice.PaymentLineInvoice</members>
 		<members>ProcessException.all_process_exceptions</members>
 		<members>Product2.Active</members>
@@ -623,12 +603,7 @@
 		<members>WorkOrder.My_WorkOrders</members>
 		<name>ListView</name>
 	</types>
-	<types>
-		<members>cms_document</members>
-		<members>cms_image</members>
-		<members>news</members>
-		<name>ManagedContentType</name>
-	</types>
+
 	<types>
 		<members>Account.Standard_Account_Match_Rule_v1_0</members>
 		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
@@ -671,14 +646,7 @@
 		<members>*</members>
 		<name>PaymentGatewayProvider</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>PermissionSet</name>
-	</types>
-	<types>
-		<members>AssistantManager</members>
-		<name>PermissionSetGroup</name>
-	</types>
+
 	<types>
 		<members>*</members>
 		<name>PlatformCachePartition</name>
@@ -695,18 +663,7 @@
 		<members>*</members>
 		<name>PostTemplate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ProfilePasswordPolicy</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ProfileSessionSetting</name>
-	</types>
+
 	<types>
 		<members>*</members>
 		<name>Prompt</name>
@@ -715,10 +672,7 @@
 		<members>*</members>
 		<name>Queue</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>QuickAction</name>
-	</types>
+
 	<types>
 		<members>*</members>
 		<name>RecommendationStrategy</name>
@@ -798,10 +752,7 @@
 		<members>*</members>
 		<name>TransactionSecurityPolicy</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>Translations</name>
-	</types>
+
 	<types>
 		<members>MiningRoster__c.Force_Future_Expiry</members>
 		<members>MiningSite__c.Minimum_Value</members>
