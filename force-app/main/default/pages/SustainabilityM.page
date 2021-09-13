@@ -1,0 +1,63 @@
+<apex:page Controller="SustainabilityController" sidebar="false" docType="html-5.0" applyBodyTag="False" applyHtmlTag="False" showHeader="false">
+    <!-- Style SLDS 
+	<apex:slds />-->
+    <apex:stylesheet value="{!$Resource.stylesheet}"/>
+    <!-- Logo Img - MiningCo -->    
+    <apex:image url="{!$Resource.MClogo}" styleClass="logo" />  
+    <apex:sectionHeader title="Mining" subtitle="Sustainability"/>
+    <apex:form styleClass="baseText">
+        <apex:pageBlock title="Products & Companies">
+            <apex:pageBlockSection columns="2" showHeader="true">                
+                <apex:outputField value="{!myAcc.Name}"/>
+                <apex:outputField value="{!myAcc.AccountNumber}"/>
+                <apex:outputField value="{!myAcc.AnnualRevenue}"/>
+                <apex:outputField value="{!myAcc.Industry}"/>
+                <apex:outputField value="{!myAcc.NumberOfEmployees }"/>
+            </apex:pageBlockSection>        
+            <apex:pageBlockSection columns="2" showHeader="true"> 
+                <apex:actionRegion >
+                    <apex:pageBlock title="Pillars" id="pillar">
+                        <apex:inputText value="{!val}"><apex:actionSupport event="onChange" rerender="pillar" /></apex:inputText><br />
+                        
+                        <apex:dynamicComponent componentValue="{!pillar}"/>        
+                    </apex:pageBlock>
+                </apex:actionRegion>
+                <apex:pageBlock title="Our Pillars">
+                    <apex:chart height="350" width="450" data="{!pieData}" theme="Green" >
+                        <apex:pieSeries dataField="data" labelField="name" donut="50"/>
+                        <apex:legend position="right"/>
+                    </apex:chart> 
+                </apex:pageBlock>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <apex:pageBlock >
+        <apex:pageBlock title="What is Sustainability" >
+            <apex:pageBlockSection columns="2">
+                <apex:image id="Sust01" value="{!$Resource.Sustainability_01}" width="250" height="150" alt="Sustainability Image 01"/>
+                <p>Sustainability is based on a simple principle: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. To pursue sustainability is to create and maintain the conditions under which humans and nature can exist in productive harmony to support present and future generations.          
+                </p>
+                <p>
+                    .
+                </p>
+            </apex:pageBlockSection>  
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Mining and Sustainability">
+            <p>.
+                
+            </p>
+            <apex:pageBlockSection columns="2">
+                <p>Environmental Policy Act of 1969 committed the United States to sustainability, declaring it a national policy “to create and maintain conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.”  
+                </p>
+                <br/>
+                <p>In the years since NEPA was enacted, the public’s interest in sustainability has broadened. According to the National Research Council, there are many additional drivers for sustainability. In the areas where the US has seen considerable progress in sustainability, a common driver for sustainability efforts is citizens and other stakeholders concern. In addition, sustainability practitioners are becoming more ambitious in their sustainability efforts and are working together to share best practices to ensure the greatest environmental, economic and social impact.  
+                </p>
+                <br/>
+                <p>EPA has a long history of working toward sustainable outcomes. To encourage progress, EPA developed a strategic approach to incorporate sustainability principles into its work.  is based on a simple principle: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. To pursue sustainability is to create and maintain the conditions under which humans and nature can exist in productive harmony to support present and future generations.          
+                </p>
+                <apex:image id="Sust02" value="{!$Resource.Sustainability_02}" width="280" height="280" alt="Sustainability Image 02"/>
+            </apex:pageBlockSection>                
+        </apex:pageBlock>
+    </apex:pageBlock>
+</apex:page>
