@@ -1,0 +1,42 @@
+<apex:page controller="AboutUsController" >
+    <apex:form >
+        <apex:pageBlock >
+            <div>
+                <p style= "font-size:40px;text-indent: 50px;text-align: center;">
+                        WORKING WITH US<br/>
+                </p>
+            </div>
+        </apex:pageBlock>
+        
+        <apex:pageBlock >
+            <div>
+                <p style= "font-size:30px;text-align: left; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                        LIFE AT SYNERGY MINING:<br/>
+                </p>
+                <p style= "font-size:20px;text-indent: 50px;text-align: left; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                   We are one big, expanding family. We are always on the look out for fresh talent and ideas, to expand our horizons
+                   and spread our wings across the globe. If you would like to be a part of our wonderful team, leave us your resume.
+                   <br/><br/>
+                </p>
+             </div>
+        </apex:pageBlock>  
+        
+        <apex:pageblock >
+            <div style="font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                <apex:outputText value="Your Name: " /><br/>
+                <apex:inputText value="{!name}" /><br/><br/><br/>
+                
+                <apex:outputText value="Your Email: " /><br/>
+                <apex:inputText value="{!yourmail}" /><br/><br/><br/>
+                
+                <apex:outputText value="Upload your Resume: " /><br/>
+                <apex:inputText value="{!yourResume}" /><br/><br/><br/>
+                 </div>
+             </apex:pageblock>
+         <apex:pageBlock >   
+           <div style ="text-align:center;text weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                <br/><br/><apex:commandLink action="{!AboutUsPage}" value=" Back to About Us" />
+           </div>
+         </apex:pageBlock>
+</apex:form>
+</apex:page>

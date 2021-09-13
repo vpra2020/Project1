@@ -1,0 +1,49 @@
+<apex:page controller="AboutUsController">
+
+    <apex:form >
+        <apex:pageBlock >
+            <apex:image id="header" url="{!$Resource.AboutUsImg}" alt=" Mine Co" style="   max-width:100%; max-height:auto; font-weight:bold;"/>
+            <br/>   <br/>   <br/>
+    </apex:pageBlock>
+    <apex:pageBlock title=" Board of directors page" >
+        <div id="container" style="white-space:nowrap; display:inline;">
+             <apex:image value="{!$Resource.Avatar1}"  />
+        </div>
+        <div id="texts" style="display:inline; white-space:nowrap; font-family: Futura, Trebuchet MS, Arial, sans-serif;"> 
+            Joseph &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+        
+        <div id="container" style="white-space:nowrap; display:inline;">
+             <apex:image value="{!$Resource.Avatar2}"  />
+        </div>
+        <div id="texts" style="display:inline; white-space:nowrap; font-family: Futura, Trebuchet MS, Arial, sans-serif;"> 
+            Vasanta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+        
+        <div id="container" style="white-space:nowrap; display:inline;">
+             <apex:image value="{!$Resource.Avatar1}"  />
+        </div>
+        <div id="texts" style="display:inline; white-space:nowrap; font-family: Futura, Trebuchet MS, Arial, sans-serif;"> 
+            Isaac &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+        
+        <div id="container" style="white-space:nowrap; display:inline;">
+             <apex:image value="{!$Resource.Avatar2}"  />
+        </div>
+        <div id="texts" style="display:inline; white-space:nowrap; font-family: Futura, Trebuchet MS, Arial, sans-serif;"> 
+            Vicky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> 
+        
+        <div id="container" style="white-space:nowrap; display:inline;">
+             <apex:image value="{!$Resource.Avatar1}"  />
+        </div>
+        <div id="texts" style="display:inline; white-space:nowrap; font-family: Futura, Trebuchet MS, Arial, sans-serif;"> 
+            John &nbsp;&nbsp;
+        </div> <br/><br/>
+
+         <div style ="text-align:center;text weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+        <br/><br/><apex:commandLink action="{!AboutUsPage}" value=" Back to About Us" />
+        </div>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,33 @@
+<apex:page controller="AboutUsController">
+     <apex:form >
+         <apex:pageBlock >
+            <apex:image id="header" url="{!$Resource.AboutUsImg}" alt=" Synergy Mining site" style="   max-width:100%; max-height:auto; font-weight:bold;"/>
+            <br/>   <br/>   <br/>
+    </apex:pageBlock>
+        <apex:pageBlock >
+            <div>
+                <p style="text-align:center; font-weight:bold;font-size:40px;font-family: Futura, Trebuchet MS, Arial, sans-serif; ">
+                    LEADERS IN RESPONSIBLE MINING, AND PAVING A WAY TO MINING IN SPACE SUCCESSFULLY
+                </p>
+            </div>
+        </apex:pageBlock>
+         
+        <apex:pageBlock >
+            <div>
+               <p style= "font-size:30px;text-indent: 50px;text-align: left; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                  What started off being a one man's dream, turned into a platform for many, and a
+                  successfull collaboration for the all the team members. This is one growing family 
+                   that has a vision to taking mining deep into space. 
+                   The research, the resources, the expertise create a meaningful value for our stakeholders as well.
+               </p>
+             </div>
+        </apex:pageBlock>
+         
+       <apex:pageBlock >
+            <div style ="text-align:center;text weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+        <br/><br/><apex:commandLink action="{!AboutUsPage}" value=" Back to About Us" />
+        </div>
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>

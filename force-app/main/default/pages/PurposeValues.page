@@ -1,0 +1,37 @@
+<apex:page controller="AboutUsController">
+    <apex:form >
+        <apex:pageBlock >
+            <div>
+                <p style="text-align:center; text-weight:bold; font-size:30px; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                         OUR PURPOSE<br/><br/>
+               </p>
+            </div>
+         </apex:pageBlock>  
+        
+         <apex:pageBlock >
+            <div>
+                 <p style= "font-size:15px;text-align: left; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                  We responsibly mine metals on Earth and Space, which are vital to the Society, while creating meaningful value
+                   for our stake holders.<br/><br/>
+               </p>
+             </div>
+        </apex:pageBlock>
+        
+        <apex:pageBlock >
+            <div>
+                <p style="text-align:center; text-weight:bold; font-size:30px; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                         OUR VALUES<br/><br/>
+                 </p>
+               <p style= "font-size:20px;text-weight:bold;text-align: center; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                 SAFETY * RESPECT * INTEGRITY * EXCELLENCE<br/><br/>
+               </p>
+             </div>
+        </apex:pageBlock>
+        
+        <apex:pageBlock >
+            <div style ="text-align:center;text weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                 <br/><br/><apex:commandLink action="{!AboutUsPage}" value=" Back to About Us" />
+            </div>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

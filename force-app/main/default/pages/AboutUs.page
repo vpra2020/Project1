@@ -1,0 +1,90 @@
+<apex:page controller="AboutUsController" showHeader="false"  sidebar="false">
+  
+    <!--Header Image-->
+    <apex:pageBlock >
+            <apex:image id="header" url="{!$Resource.AboutUsImg}" alt=" Synergy Mining site" style="   max-width:100%; max-height:auto; font-weight:bold;"/>
+            <br/>   <br/>   <br/>
+    </apex:pageBlock>
+   
+    <!--Header Title-->
+    <apex:pageBlock > 
+            <div style="text-align:center;font-size: 40px; font-weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                <apex:outputText value="{!$Label.AboutUs}" /> <br/>
+            </div>
+    </apex:pageBlock>
+    
+    <!--Header Content-->
+     <apex:pageBlock >
+           <div  id= "header" >
+               <p style="font-size:20px;text-indent: 50px;text-align: center;font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                    With a little experience, and lots of expertise this company has seen an exponential
+                    growth in a very short time.We are one of the leading producers of metals like Copper,
+                   Iron, Thorium and Uranium. We are actively pursuing mining in space with our world
+                   class resources. 
+                   In conjunction with our highly experienced team and ever expanding global
+                   teams, our deep-seated values and collaborative customer relationships, we are on the right
+                   track to make some vital contributions to the society.
+               </p>
+             </div>
+      </apex:pageBlock>
+    
+    <!--Main Page-->
+    <apex:form >
+         <apex:pageBlock >
+                 <apex:pageBlockSection >
+                    <apex:commandLink action="{!CompanyPage}" value="Our Company"  style="font-weight:bold; font-size:30px;font-family: Futura, Trebuchet MS, Arial, sans-serif;"  />
+                         <br/><br/><br/>
+                    <apex:commandLink action="{!BoardofDirectorsPage}" value="Board of Directors" style="font-weight:bold; font-size:30px; font-family: Futura, Trebuchet MS, Arial, sans-serif;" />
+                    <br/><br/><br/>
+                    <apex:commandLink action="{!PurposeValuesPage}" value="Our Purpose & Values" style="font-weight:bold; font-size:30px; font-family: Futura, Trebuchet MS, Arial, sans-serif;" />
+                    <br/><br/><br/>
+                    <apex:commandLink action="{!CareersPage}" value="Careers" style="font-weight:bold; font-size:30px; font-family: Futura, Trebuchet MS, Arial, sans-serif;" />
+                     <br/><br/><br/><br/>
+                </apex:pageBlockSection>
+             </apex:pageBlock>
+        
+     <!--Contact US-->
+        <apex:pageBlock >
+             <div >
+                         <h1 style="font-size: 30px; font-weight:bold;text-align:right; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                            &nbsp;Contact Us:
+                         </h1 >
+                            <p style=" font-size:20px; font-family: Futura, Trebuchet MS, Arial, sans-serif;" >  &nbsp;    Mine Co <br/>
+                                  &nbsp;   2021, Revature Street<br/>
+                                  &nbsp;   Reston VA 12345.<br/>
+                                  &nbsp;   Ph:(123) 456 7890<br/><br/>
+                            </p>
+            </div>
+            <apex:actionRegion >
+        <apex:pageBlock title="Subscribe to our NewsLetter" id="dynamic" >
+            <p style = "font-size: 15px; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+                If you are interested in knowing more about our company and would like to invest in it, 
+                please subscribe to our Investor Newsletter.<br/>
+                Email Address:
+            </p>
+            <apex:inputText value="{!email}" id="email" >
+            <apex:actionSupport event="onchange" rerender="dynamic" />
+            </apex:inputText> <br />
+            <apex:dynamicComponent componentValue="{!dynamic}" />
+        </apex:pageBlock>
+        </apex:actionRegion>
+        <!-- End Dynamic Block -->
+           </apex:pageBlock>
+</apex:form>
+    
+    <!--Footer-->
+    <apex:pageBlock >
+        <div style ="text-align:center;">
+        <span></span>
+        <apex:outputLink value="https://www.twitter.com" id="thetLink">
+             <apex:image value="{!$Resource.TwitterImg}"  style=" border-radius:50%;"/>
+         </apex:outputLink>&nbsp;&nbsp;
+         <apex:outputLink value="https://www.facebook.com" id="thefLink">
+             <apex:image value="{!$Resource.FacebookImg}"  style=" border-radius:50%;"/>
+         </apex:outputLink>&nbsp;&nbsp;
+        <apex:outputLink value="https://www.linkedin.com" id="thelLink">
+             <apex:image value="{!$Resource.LinkedinImg}"  style=" border-radius:50%;"/>
+         </apex:outputLink>
+        </div>
+     </apex:pageBlock>
+</apex:page>
