@@ -1,0 +1,82 @@
+.logo {
+    float: right;
+    height: 60px;
+    margin: -80px 20px 0 0;
+    /*
+        use this in your VF Page  after <apex:form>
+            <apex:image url="{!$Resource.MClogo}" styleClass="logo" />
+        You will need to save the logo image (the fourth image I sent in discord) as a staticresource with the name MClogo
+    */
+    }
+
+.baseText {
+    font-size: 18px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+        /*
+            This style class is for the body text of you page.
+        */
+    }
+.formText {
+    font-size: 17px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+        /*
+            This style class is for any input field on you page.
+        */
+    }
+.formButtons {
+    font-size: 13px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+        /*
+            This style class is for any buttons you have on you page.
+        */
+    }
+.formbackground{
+    font-size: 20px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    color: #1E1E1E;
+    background-color: #d4cdc1;
+        /*
+            This style class is for the background of your page.
+        */
+}
+
+/*
+    Remeber to add this stylesheet as a static resource with the name stylesheet
+    here is the VF page code
+        <apex:stylesheet value="{!$Resource.stylesheet}" />
+
+    For My VF page I used a Section header and inline CSS to get the top border appearence 
+    with the logo. The following is how if you want to do the same
+        <apex:form styleClass="formbackground">
+        <apex:sectionHeader title="Mine Co" subtitle="Our Business"/>
+        <apex:image url="{!$Resource.VF_Test_Logo}" styleClass="logo" />
+        <apex:pageBlock >
+            <style type="text/css">
+                body {
+                    background-color: white;
+                }
+              	.pbTitle {
+        			white-space:nowrap;
+       				 border:white;
+    			}
+                .bPageBlock .pbBody .dataCol {
+                    border:0px;
+                }
+                .bPageBlock .pbBody .labelCol {
+                    border:0px;
+                }
+            </style>
+    And I used the Community site to add a background color to #d4cdc1
+*/
