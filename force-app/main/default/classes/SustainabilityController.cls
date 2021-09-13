@@ -4,6 +4,7 @@ public class SustainabilityController {
     transient public Integer val {get; set;}
     public ID idAccount;
     public List<Account> myAccs = new List<Account>();
+    public String test;
     
     public SustainabilityController (){        
         PageReference auxPage = ApexPages.currentPage();
