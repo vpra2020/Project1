@@ -76,7 +76,7 @@
     
     <!--Footer-->
     <apex:pageBlock >
-        <div style ="text-align:center;">
+        <div style ="text-align:center; background-color: #d4cdc1;">
         <span></span>
         <apex:outputLink value="https://www.twitter.com" id="thetLink">
              <apex:image value="{!$Resource.TwitterImg}"  style=" border-radius:50%;"/>
