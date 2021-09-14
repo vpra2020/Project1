@@ -1,0 +1,22 @@
+<apex:page showHeader="false" sidebar="false" standardController="Account" extensions="ProductsPageController">
+    <apex:form >
+        <div style="width:150px;height:150px;border:solid 1px red;background-color:#C0C0C0;float:left">
+            <apex:commandLink action="{!clickme4}" value="Products/Services"/>
+              </div>
+              <apex:outputPanel style="width:150px;border:solid 1px red;float:left;background-color:#707070">
+                 <apex:outputText style="color:white"/>
+                  </apex:outputPanel>
+                  
+        <div style="width:150px;height:150px;border:solid 1px red;background-color:#C0C0C0;float:left">
+                  <apex:commandLink action="{!clickme1}" value="Uranium"/>
+              </div>
+    <apex:outputPanel style="width:150px;border:solid 1px red;float:left;background-color:#707070">
+                 <apex:outputText style="color:white" value="{!clicked}"/>
+                  <apex:image id="theImage1" value="https://miningafrica.net//wp-content/uploads/2016/08/Gummite-Uraninite-Zircon-62299.jpg" width="220" height="55" alt="Description of image here"/>
+             </apex:outputPanel>
+    
+    <apex:outputPanel >
+                 <apex:outputText style="color:white" value="{!clicked}"/>
+                  </apex:outputPanel>
+    </apex:form>
+</apex:page>
