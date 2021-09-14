@@ -146,5 +146,5 @@
         <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.ACTIVE</searchResultsAdditionalFields>
     </searchLayouts>
-
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

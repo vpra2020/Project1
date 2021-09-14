@@ -1,0 +1,76 @@
+<apex:page controller="HomePageCustom" extensions="HomePageExtension"> <!-- standardController="Lead" -->
+
+  <apex:stylesheet value="{!$Resource.TestStyle}"/>
+  
+  <div style="text-align:center; background:#D4CDC1; padding-top:30px; padding-bottom:30px;">
+       <apex:image url="{!$Resource.HomePageBannerMainTRANSPARENT}" height="300px"/>
+  </div>
+  
+  <!-- some sort of section title here, denote that the following pictures are out top 3 in order of estimated site value, as that corresponds to popularity and utility sort of convolved together.
+  Also have links either on the pics or in little description boxes to take to product pages for that ore? -->
+
+
+  <apex:pageBlock title="Our Most Popular Product Sites">  <!--styleClass="container"-->
+  
+      <apex:outputPanel styleClass="container">     
+      
+          <apex:outputPanel style="transform:translate(100%);">
+          
+              <div style="text-align:center;font-size: 14px;">
+                   <apex:outputText >#1 Valuable Mining Location</apex:outputText>
+               </div>
+              <apex:image url="{!ImgUrl}" alt="One of our active mining sites" title="{!Tooltip}" />
+          </apex:outputPanel>
+          
+          <apex:outputPanel >
+              <div style="text-align:center;font-size: 14px;">
+                   <apex:outputText >#2 Valuable Mining Location</apex:outputText>
+               </div>
+              <apex:image url="{!ImgUrl2}" alt="One of our active mining sites" title="{!Tooltip2}"/>
+          </apex:outputPanel>
+      
+          <apex:outputPanel style="transform:translate(-100%);">
+              <div style="text-align:center;font-size: 14px;">
+                   <apex:outputText >#3 Valuable Mining Location</apex:outputText>
+               </div>
+              <apex:image url="{!ImgUrl3}" alt="One of our active mining sites" title="{!Tooltip3}"/>
+          </apex:outputPanel>
+      
+      </apex:outputPanel>
+      
+      
+  </apex:pageBlock>
+  
+
+  <apex:pageBlock >
+      <apex:outputText > Welcome to Mine Co. We have the right ores for your chores. </apex:outputText>
+      <apex:outputText > Our mission is to provide the best quality rare-earth resources for your industrial needs. </apex:outputText>
+      <apex:outputText > We were established in the year 2003 shortly after SpaceX, and inspired by them. We are set on practicing sustainable mining in order to deliver 
+      the resources humanity needs to build civilization not only on Earth, but up to 22 light-minutes away as well on Mars. We strictly intend on doing so in a manner which will continue to let 
+      the Earth be a habitable planet as it's always been for us, as we believe this is and should always be our home no matter how far out we may end up venturing as a species. 
+       </apex:outputText>
+  </apex:pageBlock>
+
+  <apex:form id="reRENDER-this">
+  
+    <apex:pageBlock title="Get In Contact" mode="edit">
+
+      <apex:pageBlockSection title="Please fill out the form if you'd like to dicsuss any details with our service team, they'll contact you soon." columns="1" rendered="{!NOT(bRender)}">
+        <apex:inputField value="{!lead.lastname}" />
+        <apex:inputField value="{!lead.company}"/>
+        <apex:inputField value="{!lead.email}" required="true"/>
+        <apex:inputField value="{!lead.phone}" required="true"/>
+        
+        <apex:commandButton action="{!save}" value="Submit" reRender="reRENDER-this"/>
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockSection title="Success" rendered="{!bRender}">
+        <apex:OutputText >We look forward to getting in contact, Thank You!</apex:OutputText>
+      </apex:pageBlockSection>
+         
+    </apex:pageBlock>
+  
+  </apex:form>
+  
+  
+</apex:page>
