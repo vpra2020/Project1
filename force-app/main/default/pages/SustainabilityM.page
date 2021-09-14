@@ -1,6 +1,6 @@
-<apex:page Controller="SustainabilityController" sidebar="false" docType="html-5.0" applyBodyTag="False" applyHtmlTag="False" showHeader="false">
+<apex:page Controller="SustainabilityController"> <!--  sidebar="false" docType="html-5.0" applyBodyTag="False" applyHtmlTag="False" showHeader="false" --> 
     <!-- Style SLDS 
-	<apex:slds />-->
+    <apex:slds />-->
     <apex:stylesheet value="{!$Resource.stylesheet}"/>
     <!-- Logo Img - MiningCo -->    
     <apex:image url="{!$Resource.MClogo}" styleClass="logo" />  

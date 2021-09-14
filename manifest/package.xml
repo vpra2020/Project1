@@ -12,9 +12,12 @@
 		<members>SustainabilityExtension</members>
 		<members>SustainabilityTest</members>
 		
-
+		<members>HomePageCustom</members>
+		<members>HomePageExtension</members>
 
 		<!--<members>AboutUsController</members>-->
+
+		<members>ProductsPageExtension</members>
 
 
 		<name>ApexClass</name>
@@ -23,13 +26,13 @@
 	<types>
 	<!--
 		<members>Business</members> 
-		<members>MapPage</members>-->
+		-->
 
 		
 		
 		<members>SustainabilityM</members>
 		
-
+		<members>MapPage</members>
 
 		<!--<members>AboutUs</members>
 		<members>Company</members>
@@ -37,11 +40,11 @@
 		<members>PurposeValues</members>
 		<members>Careers</members>-->
 
-
-<!--
 		<members>ProductsPage</members>
 		<members>Uranium</members>
-		-->
+		<members>Platinum</members>
+		<members>Tungsten</members>
+		
 		<name>ApexPage</name>
 	</types>
 
@@ -50,6 +53,7 @@
 		<name>StaticResource</name>
 	</types>
 
+<!--
 	<types>
 		<members>*</members>
 		<name>CustomField</name>
@@ -59,6 +63,7 @@
 		<members>*</members>
 		<name>CustomObject</name>
 	</types>
+	-->
 
 	<types>
 		<members>Mining_Site_Record_Page</members>
