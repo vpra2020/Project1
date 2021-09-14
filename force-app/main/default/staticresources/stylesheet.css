@@ -1,0 +1,38 @@
+.logo {
+    float: right;
+    height: 60px;
+    margin: -80px 20px 0 0;
+    }
+
+.baseText {
+    font-size: 18px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+    }
+.formText {
+    font-size: 17px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+    }
+.formButtons {
+    font-size: 13px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    margin: 0px 0 0px 0px;
+    float: left;
+    width: 100%;
+    color: #1E1E1E;
+    }
+.formbackground{
+    font-size: 20px;  
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;  
+    color: #1E1E1E;
+    background-color: #d4cdc1;
+
+}
+

@@ -1,0 +1,65 @@
+<apex:page showHeader="false" Controller="businessController" sidebar="false">
+    <apex:stylesheet value="{!$Resource.stylesheet}" />
+    <apex:form styleClass="formbackground">
+        <apex:sectionHeader title="Mine Co" subtitle="Our Business"/>
+        <apex:image url="{!$Resource.VF_Test_Logo}" styleClass="logo" />
+        <apex:pageBlock >
+            <style type="text/css">
+                body {
+                    background-color: white;
+                }
+              	.pbTitle {
+        			white-space:nowrap;
+       				 border:white;
+    			}
+                .bPageBlock .pbBody .dataCol {
+                    border:0px;
+                }
+                .bPageBlock .pbBody .labelCol {
+                    border:0px;
+                }
+            </style>
+            <apex:outputPanel styleClass="baseText">
+               <br /><b> Copper </b><br />
+                Mine Co is the only right choice in copper and copper derivatives. Our exclusive mining sights and use of cutting edge  technology gives us a sustainable competitive advantage.<br />
+                <apex:commandLink action="{!copperPage}" value="Want to learn More?" /><br /><br />
+                <b> Iron.</b><br />
+                We provide the highest quality Iron ore ready to be shipped to you including massive hematite, magnetite, titanomagnetite, and pisolitic ironstone<br />
+                <apex:commandLink action="{!ironPage}" value="Want to learn More?" /><br /><br />
+                <b> Ice</b><br />
+                We produce and distribute various forms of ice for both industrial and commercial uses including food storage, chemical manufacturing, concrete curing and more<br />
+                <apex:commandLink action="{!icePage}" value="Want to learn More?" /><br /><br />
+                <b> Uranium</b><br />
+                We mine and disribute Uranium ready for both the Nucular energy Reactors and the Military–industrial complex  <br />
+                <apex:commandLink action="{!uraniumPage}" value="Want to learn More?" /><br /><br />
+                <b> Thorium</b><br />
+                Along with Uranium we also proved Thorium for you nucular reactor fuel needs if you want your reactor fule to produces less radioactive waste and more energy per ton  <br />
+                <apex:commandLink action="{!thoriumPage}" value="Want to learn More?" /><br /><br />     
+            </apex:outputPanel>
+            <!-- Contact Fields -->
+            <apex:outputPanel id="mainBlock" styleClass="formText">
+                <apex:pageBlockSection columns="2" showHeader="true" title="Interested? Join the Contact List" rendered="{!NOT(bConCreated)}" >
+                    <apex:inputField value="{!conString.FirstName}" required="false" />
+                    <apex:inputField value="{!conString.LastName}" required="false" />
+                    <apex:inputField value="{!conString.Email}" required="false" />
+                    <b> </b>
+                    <apex:inputField value="{!conString.Phone}" required="false" />
+                    <apex:inputField value="{!conString.Fax}" required="false" />
+                    <apex:inputField value="{!conString.MailingCountry}" required="false" />
+                    <apex:inputField value="{!conString.MailingCity}" required="false" />
+                    <apex:inputField value="{!conString.MailingState}" required="false" />
+                    <apex:inputField value="{!conString.MailingStreet}" required="false" />
+                    <apex:inputField value="{!conString.MailingPostalCode}" required="false" />
+                </apex:pageBlockSection>
+                <!-- Button Section -->
+                 <apex:pageBlockSection rendered="{!bConCreated}">
+                    <apex:outputText value="Congratulations! You have Succesfully Joined our Contact List" /> <br/>    
+                </apex:pageBlockSection>
+            </apex:outputPanel>
+            <apex:pageBlockButtons location="bottom" styleClass="formButtons">
+				<apex:commandButton value="Add to Contact List" action="{!SaveTo}" rerender="mainBlock" />
+                <apex:commandLink action="{!HomePage}" value="Home Page" />
+        	</apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
