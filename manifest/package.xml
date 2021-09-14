@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
 	<types>
 		<members>businessController</members>
 		<members>businessControllerTest</members>
+
+		<!--
 		<members>SustainabilityController</members>
 		<members>SustainabilityExtension</members>
 		<members>SustainabilityTest</members>
+		-->
+
+
+		<!--<members>AboutUsController</members>-->
+
+
 		<name>ApexClass</name>
 	</types>
+
 	<types>
 		<members>Business</members>
 		<members>MapPage</members>
+
+		
+		<!--
 		<members>SustainabilityM</members>
-		<members>AboutUs</members>
+		-->
+
+
+		<!--<members>AboutUs</members>
+		<members>Company</members>
+		<members>BoardofDirectors</members>
+		<members>PurposeValues</members>
+		<members>Careers</members>-->
+
+
+		<members>ProductsPage</members>
+		<members>Uranium</members>
 		<name>ApexPage</name>
 	</types>
+
 	<types>
-		<members>VF_Test_Logo</members>
-		<members>stylesheet</members>
-		<members>MStylesheet</members>
+		<members>*</members>
 		<name>StaticResource</name>
 	</types>
 
@@ -27,6 +50,15 @@
 		<name>CustomField</name>
 	</types>
 
+	<types>
+		<members>*</members>
+		<name>CustomObject</name>
+	</types>
+
+	<types>
+		<members>Mining_Site_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
 
 	<version>51.0</version>
 </Package>
