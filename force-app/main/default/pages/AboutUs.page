@@ -1,4 +1,6 @@
 <apex:page controller="AboutUsController" showHeader="false"  sidebar="false">
+    <apex:form >
+    <apex:stylesheet value="{!$Resource.MStylesheet}"/>
   
     <!--Header Image-->
     <apex:pageBlock >
@@ -8,7 +10,7 @@
    
     <!--Header Title-->
     <apex:pageBlock > 
-            <div style="text-align:center;font-size: 40px; font-weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;">
+            <div style="text-align:center;font-size: 40px; font-weight:bold; font-family: Futura, Trebuchet MS, Arial, sans-serif;background-color: #d4cdc1;">
                 <apex:outputText value="{!$Label.AboutUs}" /> <br/>
             </div>
     </apex:pageBlock>
@@ -29,7 +31,7 @@
       </apex:pageBlock>
     
     <!--Main Page-->
-    <apex:form >
+    
          <apex:pageBlock >
                  <apex:pageBlockSection >
                     <apex:commandLink action="{!CompanyPage}" value="Our Company"  style="font-weight:bold; font-size:30px;font-family: Futura, Trebuchet MS, Arial, sans-serif;"  />
@@ -70,11 +72,11 @@
         </apex:actionRegion>
         <!-- End Dynamic Block -->
            </apex:pageBlock>
-</apex:form>
+
     
     <!--Footer-->
     <apex:pageBlock >
-        <div style ="text-align:center;">
+        <div style ="text-align:center; background-color: #d4cdc1;">
         <span></span>
         <apex:outputLink value="https://www.twitter.com" id="thetLink">
              <apex:image value="{!$Resource.TwitterImg}"  style=" border-radius:50%;"/>
@@ -87,4 +89,5 @@
          </apex:outputLink>
         </div>
      </apex:pageBlock>
+         </apex:form>
 </apex:page>
