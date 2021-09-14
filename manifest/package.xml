@@ -58,12 +58,12 @@
 		<members>*</members>
 		<name>CustomField</name>
 	</types>
-
+-->
 	<types>
-		<members>*</members>
+		<members>MiningSite__c</members>
 		<name>CustomObject</name>
 	</types>
-	-->
+
 
 	<types>
 		<members>Mining_Site_Record_Page</members>
