@@ -1,18 +1,62 @@
-# Salesforce DX Project: Next Steps
+# MINE CO - Community Site  
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Project Description
 
-## How Do You Plan to Deploy Your Changes?
+Customer experience website addition for Mine Co company.
+Publicly visible to spread the information about your company in an attractive manner.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Technologies Used
 
-## Configure Your Salesforce DX Project
+* Apex
+* Apex Testing
+* HTML
+* CSS
+* JavaScript
+* Visualforce
+* Process Builder
+* UI Customization
+* Security and Access
+* Data Modeling
+* Scrumban
+* Experience Cloud
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Features
 
-## Read All About It
+List of features ready and TODOs for future development
+* Home Page with most-popular mining site locations shown dynamically
+* Sustainability Page with interactive charts
+* Business Page to get in contact and view the Products page
+* Products page to learn more about individual products offered
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+To-do list:
+* Style pages more aesthetically and consistently
+* Make Sustainability page more dynamic with information pulled from database about mining sites and their impacts
+
+## Getting Started
+   
+(include git clone command)
+(include all environment setup steps)
+
+> Be sure to include BOTH Windows and Unix command  
+> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+
+- All the `code` required to get started
+- Images of what it should look like
+
+## Usage
+
+#### Presentation: 
+https://docs.google.com/presentation/d/1gNkEIvMjAqxvLoO5I0nSxvR6h9JnaTkkChlRcjx0rzk/edit#slide=id.ge609be8ea5_0_42
+
+> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+
+## Contributors
+
+* Alix Victoria Perez
+* Isaac Lopez
+* John Jarog
+* Joseph Wertzberger 
+
+## License
+
+This project uses the following license: [<license_name>](<link>).
