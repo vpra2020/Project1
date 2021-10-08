@@ -51,10 +51,10 @@ https://docs.google.com/presentation/d/1gNkEIvMjAqxvLoO5I0nSxvR6h9JnaTkkChlRcjx0
 
 ## Contributors
 
-> Alix Victoria Perez
-> Isaac Lopez
-> John Jarog
-> Joseph Wertzberger 
+* Alix Victoria Perez
+* Isaac Lopez
+* John Jarog
+* Joseph Wertzberger 
 
 ## License
 
