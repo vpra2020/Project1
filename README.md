@@ -23,13 +23,14 @@ Publicly visible to spread the information about your company in an attractive m
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Home Page with most-popular mining site locations shown dynamically
+* Sustainability Page with interactive charts
+* Business Page to get in contact and view the Products page
+* Products page to learn more about individual products offered
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Style pages more aesthetically and consistently
+* Make Sustainability page more dynamic with information pulled from database about mining sites and their impacts
 
 ## Getting Started
    
